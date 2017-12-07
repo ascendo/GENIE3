@@ -9,7 +9,7 @@ To install GENIE3 (from Bioconductor development branch), you can run the follow
 install.packages("https://bioconductor.org/packages/devel/bioc/src/contrib/GENIE3_0.99.7.tar.gz", repos=NULL)
 
 # You might need to install these packages first:
-install.packages(c("stats", "reshape2"))
+install.packages(c("stats", "reshape2", "foreach", "doParallel"))
 ```
 
 
